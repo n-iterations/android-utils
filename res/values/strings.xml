@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">android-utils</string>
+    
+    <string name="DIALOG_COLOR_TITLE">Color Chooser</string>
+	<string-array name="COLOR_TYPE">
+	    <item>Whites/Pastel</item>
+	    <item>Grays</item>
+	    <item>Blues</item>
+	    <item>Greens</item>
+	    <item>Yellow</item>
+	    <item>Browns</item>
+	    <item>Oranges</item>
+	    <item>Pinks/Violets</item>
+	</string-array>
+	
+	<string name="TOAST_NO_COLOR_TYPE">Unable to find color palette %1$s</string>
+	<string name="TOAST_SELECTED_COLOR">You have selected %1$s</string>
+
+</resources>
