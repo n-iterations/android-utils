@@ -14,6 +14,8 @@
 	    <item>Pinks/Violets</item>
 	</string-array>
 	
+	<string name="TIME_TEMPLATE">%1$s : %2$s</string>
+	
 	<string name="TOAST_NO_COLOR_TYPE">Unable to find color palette %1$s</string>
 	<string name="TOAST_SELECTED_COLOR">You have selected %1$s</string>
 
