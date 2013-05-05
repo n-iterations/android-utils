@@ -24,7 +24,7 @@ public class TimeClockView extends View
     
     private volatile boolean mTouchMove;
     
-    private float mInitialX, mInitialY;
+    private float  mInitialY;
     
     private boolean mIsPastNoon;
     
@@ -117,7 +117,6 @@ public class TimeClockView extends View
         {
             if (BuildConfig.DEBUG) Log.d(LOG_TAG, "onTouchDown");
             
-            mInitialX = event.getX();
             mInitialY = event.getY();
             
             if (mFlexiScroll != null) mFlexiScroll.disableScrolling();
